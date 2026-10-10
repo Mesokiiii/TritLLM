@@ -1,0 +1,11 @@
+torch>=2.4.0
+transformers>=4.40.0
+datasets>=2.18.0
+tiktoken>=0.7.0
+triton>=2.1.0; sys_platform == 'linux'
+accelerate>=0.28.0
+bitsandbytes>=0.43.0
+pyarrow>=14.0.0
+python-docx>=1.1.0
+numpy>=1.24.0
+rich>=13.7.0

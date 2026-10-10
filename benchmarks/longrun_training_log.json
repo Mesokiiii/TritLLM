@@ -1,0 +1,99 @@
+{
+  "session_duration_seconds": 64.00610399246216,
+  "total_elapsed_with_resume": 64.00610399246216,
+  "total_steps": 100,
+  "total_tokens_trained": 204800,
+  "tokens_per_second": 3199.6948294824942,
+  "initial_val_loss": 7.8022,
+  "initial_val_ppl": 2446.05,
+  "final_val_loss": 5.062,
+  "final_val_ppl": 157.9,
+  "final_ternary_stats": {
+    "total_ternary": 786432,
+    "pct_neg": 36.07,
+    "pct_zero": 28.13,
+    "pct_pos": 35.8,
+    "mean_alpha": 0.04646
+  },
+  "engine": "Rust AVX2 CFFI",
+  "history_logs": [
+    {
+      "step": 26,
+      "elapsed_sec": 20.3,
+      "train_loss": 6.6016,
+      "val_loss": 5.8865,
+      "val_ppl": 360.13,
+      "tok_per_sec": 2629.4,
+      "total_tokens": 53248,
+      "lr": 0.002,
+      "flips_pct": 23.17,
+      "pct_neg": 36.92,
+      "pct_zero": 26.93,
+      "pct_pos": 36.15,
+      "mean_alpha": 0.04303,
+      "cpu_percent": 45.2,
+      "cpu_ghz": 2.1,
+      "ram_proc_mb": 535.6
+    },
+    {
+      "step": 51,
+      "elapsed_sec": 40.4,
+      "train_loss": 5.9888,
+      "val_loss": 5.5743,
+      "val_ppl": 263.57,
+      "tok_per_sec": 2584.6,
+      "total_tokens": 104448,
+      "lr": 0.001999,
+      "flips_pct": 11.52,
+      "pct_neg": 36.61,
+      "pct_zero": 27.42,
+      "pct_pos": 35.97,
+      "mean_alpha": 0.04415,
+      "cpu_percent": 59.0,
+      "cpu_ghz": 2.1,
+      "ram_proc_mb": 555.2
+    },
+    {
+      "step": 98,
+      "elapsed_sec": 60.5,
+      "train_loss": 5.5549,
+      "val_loss": 5.1264,
+      "val_ppl": 168.42,
+      "tok_per_sec": 3317.1,
+      "total_tokens": 200704,
+      "lr": 0.001999,
+      "flips_pct": 16.26,
+      "pct_neg": 36.09,
+      "pct_zero": 28.1,
+      "pct_pos": 35.81,
+      "mean_alpha": 0.04637,
+      "cpu_percent": 73.7,
+      "cpu_ghz": 2.1,
+      "ram_proc_mb": 555.1
+    }
+  ],
+  "generation_milestones": [
+    {
+      "step": 100,
+      "elapsed_sec": 64.00610399246216,
+      "samples": [
+        {
+          "prompt": "The history of",
+          "generated": "The history of Patus and <unk> . \n He is a fewotes = = \n Fo 's of the first chy of <unk"
+        },
+        {
+          "prompt": "In science and technology",
+          "generated": "In science and technology that of Cast and <unk> , and the end . \n Soe in his <unk> and Pal , with a <unk"
+        },
+        {
+          "prompt": "The city was founded",
+          "generated": "The city was founded in the wra , the Squaptcy to fur the most of the first for the muter , and Li"
+        },
+        {
+          "prompt": "According to the theory",
+          "generated": "According to the theory the song and the samedan <unk> . The Cleth \" \" BCed the Cor and a single a new , he"
+        }
+      ]
+    }
+  ]
+}

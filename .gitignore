@@ -1,0 +1,67 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+~/venv_4090/
+
+# PyTorch Checkpoints & Datasets (Prevent large binaries)
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+*.arrow
+checkpoints/
+fetched_checkpoints/
+datasets/
+demsni_cache/
+*.tar.gz
+
+# Rust build artifacts
+target/
+**/*.rs.bk
+Cargo.lock.bak
+
+# Sensitive Credentials & Private Keys (STRICTLY FORBIDDEN)
+*.pem
+*.ppk
+*.key
+*.id_rsa
+credentials/
+secrets/
+.env
+
+# Logs and telemetry
+*.log
+logs/
+fetched_logs/
+wandb/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
