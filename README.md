@@ -1,7 +1,7 @@
 # TritLLM: Towards Multiplication-Free Language Modeling with Balanced Ternary Quantization, SubLN Stability, and Fused Hardware Kernels
 
 **Authors:** TritLLM Research Initiative  
-**Preprint & Technical Report:** [`TritLLM_Technical_Report.docx`](TritLLM_Technical_Report.docx) | [`TritLLM_Technical_Report.md`](TritLLM_Technical_Report.md)  
+**Preprint & Technical Report:** [`TritLLM_Technical_Report.pdf`](TritLLM_Technical_Report.pdf) | [`TritLLM_Technical_Report.tex`](TritLLM_Technical_Report.tex) | [`TritLLM_Technical_Report.md`](TritLLM_Technical_Report.md)  
 **Code Repository:** [https://github.com/Mesokiiii/TritLLM.git](https://github.com/Mesokiiii/TritLLM.git)  
 **License:** MIT License  
 
@@ -159,9 +159,10 @@ A dedicated bare-metal server (4x NVIDIA RTX 4090, 96 GB VRAM, 16 vCPUs, 128 GB 
 
 ```
 TritLLM/
-├── TritLLM_Technical_Report.docx      # Academic research report (arXiv publication format)
-├── TritLLM_Technical_Report.md        # Technical report in Markdown
-├── README.md                          # Repository overview and documentation
+├── TritLLM_Technical_Report.pdf      # Compiled academic research paper (PDF)
+├── TritLLM_Technical_Report.tex      # LaTeX source code (arXiv publication format)
+├── TritLLM_Technical_Report.md       # Technical report in Markdown
+├── README.md                         # Repository overview and documentation
 ├── requirements.txt                   # Dependency specifications
 ├── .gitignore                         # Build and cache exclusions
 │
